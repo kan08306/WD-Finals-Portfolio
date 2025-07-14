@@ -104,7 +104,8 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title     |                   Purpose                     | Link              |
-| Portfolio | presenting my personal information and skills | https://kan08306.github.io/WD-Finals-Portfolio/                                                  |
-| Canva     | Design layout for my portfolio | https://canva.com                |
-| Pinterest | Logo images for my portfolio   | https://pinterest.com            |
+| Title | Purpose | Link |
+|-|-|-|
+| Portfolio | presenting my personal information and skills | https://kan08306.github.io/WD-Finals-Portfolio/ |
+| Canva     | Design layout for my portfolio                | https://canva.com                               |
+| Pinterest | Logo images for my portfolio                  | https://pinterest.com                           |
