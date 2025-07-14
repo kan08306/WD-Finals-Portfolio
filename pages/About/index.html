@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="../About/assets/css/hf.css" />
+    <link rel="stylesheet" href="../About/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+      <div class="page-wrapper">
+    <header class="expanding-header">
+      <div class="logo-center" onclick="toggleHeaderBox()">
+        <img src="../About/assets/img/KBlogo.png" alt="Logo" />
+      </div>
+      <div class="nav-expand-box" id="navBox">
+        <div class="nav-left">
+          <a href="../../index.html">Home</a>
+          <a href="../About/index.html">About</a>
+          <a href="../Works/index.html">Works</a>
+        </div>
+        <div class="nav-right">
+          <button onclick="window.location.href='../Contact/index.html'">Contact</button>
+          <button onclick="window.location.href='../Feedback/index.html'" >Feedback</button>
+        </div>
+      </div>
+    </header>
+
+<section class="about-section">
+    <div class="left-column">
+      <!-- Flipbox 1: About Me / Hobbies -->
+      <div class="about-box">
+        <div class="flipbox-wrapper">
+          <div class="flipbox-front box">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <p class="about-text">
+              Hi, my name is Ken Bautista, 20 year old, Born and <br>
+              raised in Manila, Philippines. <br><br>
+              I am a first-year undergraduate student at the FEU <br>
+              Institute of Technology, pursuing a Bachelor of <br>
+              Science in Information Technology with a <br>
+              specialization in Cybersecurity.
+            </p>
+            <img src="../About/assets/img/nekpfp.png" alt="Ken Bautista" class="ken-side-image" />
+          </div>
+          <div class="flipbox-back box">
+            <h2><i class="fas fa-gamepad"></i> Hobbies</h2>
+            <div class="hobbies-layout">
+              <p class="hobbies-text">
+                During my free time, I enjoy walking, reading books, <br>
+                watching movies or TV series, and playing online <br>
+                games such as Valorant, League of Legends, and <br> 
+                Roblox. These activities help me relax, stay <br>
+                inspired, and maintain a healthy balance between <br>
+                productivity and enjoyment. <br><br>
+                <em>"You cannot lose what you do not have." — Marcus Aurelius</em>
+              </p>
+              <div class="hobby-slider-box">
+                <div class="hobby-slider-images">
+                  <img src="../About/assets/img/lol.jpg" alt="Hobby Image" class="hobby-slide" />
+                  <img src="../About/assets/img/Valo.jpg" alt="Hobby Image" class="hobby-slide" />
+                  <img src="../About/assets/img/roblox.jpg" alt="Hobby Image" class="hobby-slide" />
+                  <img src="../About/assets/img/suits.jpg" alt="Hobby Image" class="hobby-slide" />
+                  <img src="../About/assets/img/med.jpg" alt="Hobby Image" class="hobby-slide" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flipbox 2: Technical Skills / Soft Skills -->
+      <div class="skills-box">
+        <div class="flipbox-wrapper">
+<div class="flipbox-front box">
+  <h2><i class="fas fa-code"></i> Technical Skills</h2>
+  <div class="hobbies-layout">
+    <p class="tech-text">
+      I have a basic understanding of programming <br>
+      in C++, along with fundamental skills in <br>
+      HTML, CSS & JS. I can write simple code <br>
+      structures, create basic functionalities and <br>
+      design static web pages. Although I'm still <br>
+      at the beginner level, I am actively <br>
+      learning and improving through practice and <br>
+      study.
+    </p>
+    <div class="tech-slider-box" id="tech-slider">
+      <h5 class="tech-tools-title">Tools</h5>
+      <div class="tech-slider-images">
+        <img src="../About/assets/img/html.jpg" alt="HTML" class="tech-slide" />
+        <img src="../About/assets/img/css.jpg" alt="CSS" class="tech-slide" />
+        <img src="../About/assets/img/cpp.jpg" alt="C++" class="tech-slide" />
+        <img src="../About/assets/img/canva.jpg" alt="Canva" class="tech-slide" />
+        <img src="../About/assets/img/ps.jpg" alt="Photoshop" class="tech-slide" />
+        <img src="../About/assets/img/pinterest.jpg" alt="Pinterest" class="tech-slide" />
+        <img src="../About/assets/img/yt.jpg" alt="YouTube" class="tech-slide" />
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div class="flipbox-back box">
+            <h2><i class="fas fa-brain"></i> Soft Skills</h2>
+            <p class="soft-text">
+              I am a flexible individual who can work well both in teams and independently. <br>
+              I have strong problem solving skills and can perform effectively under pressure.  <br><br>
+              My ability to stay calm and focused helps me navigate challenges efficiently. <br>
+              I also have basic design knowledge, which allows me to approach tasks with a <br>
+              creative and structured mindset.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Education / Certification -->
+    <div class="right-column">
+      <div class="education-box">
+        <div class="flipbox-wrapper">
+          <div class="flipbox-front box">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="timeline">
+              <div class="timeline-entry">
+                <div class="timeline-marker first-marker"></div>
+                <div class="timeline-content">
+                  <div class="edu-title">BS IT Cybersecurity</div>
+                  <div class="edu-school">FEU Institute of Technology</div>
+                </div>
+                <div class="edu-year-circle">2025</div>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <div class="edu-title">BS IT Cybersecurity</div>
+                  <div class="edu-school">FEU Institute of Technology</div>
+                </div>
+                <div class="edu-year-circle">2024</div>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <div class="edu-title">Senior High School</div>
+                  <div class="edu-school">Manila Cathedral School</div>
+                </div>
+                <div class="edu-year-circle">2024</div>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <div class="edu-title">Junior High School</div>
+                  <div class="edu-school">Manila Cathedral School</div>
+                </div>
+                <div class="edu-year-circle">2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="flipbox-back box">
+            <h2><i class="fas fa-award"></i> Certification</h2>
+            <div class="timeline">
+              <div class="timeline-entry">
+                <div class="timeline-cert first-marker"></div>
+                <div class="timeline-content">
+                  <div class="cert-school">FEU Institute of Tech</div>
+                  <div class="cert-title">HTML &amp; CSS Certification</div>
+                </div>
+                <div class="cert-year-circle">On going</div>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-cert"></div>
+                <div class="timeline-content">
+                  <div class="cert-school">Coursera</div>
+                  <div class="cert-title">Create a no-code responsive website with Webflow</div>
+                </div>
+                <div class="cert-year-circle">2024</div>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-cert"></div>
+                <div class="timeline-content">
+                  <div class="cert-school">Coursera</div>
+                  <div class="cert-title">Introduction to Basic Game Development using Scratch</div>
+                </div>
+                <div class="cert-year-circle">2024</div>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-cert"></div>
+                <div class="timeline-content">
+                  <div class="cert-school">Coursera</div>
+                  <div class="cert-title">Introduction to Data Analysis using Microsoft Excel</div>
+                </div>
+                <div class="cert-year-circle">2024</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <footer>
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-left">
+          <a href="../../index.html">
+            <img src="./assets/img/KBlogo.png" alt="KB Logo" class="footer-logo-sm" />
+          </a>
+          <span>Ken Bautista</span>
+        </div>
+        <div class="footer-bottom-center">
+          <a href="../About/index.html">About</a>
+          <a href="../Works/index.html">Works</a>
+          <a href="../Contact/index.html">Contact</a>
+        </div>
+        <div class="footer-bottom-right">
+          <a href="../Feedback/index.html">Feedback</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copyright">
+        <span>© 2025 Ken Bautista. All rights reserved.</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="../About/assets/img/bgvideoz.mp4" type="video/mp4" />
+    </video>
+    <div class="logo-overlay">
+      <img src="../About/assets/img/KBlogo.png" alt="Ken Bautista Logo" class="blurred-logo" />
+    </div>
+  </div>
+
+  <script src="../About/assets/js/scripts.js"></script>
+
+
+</body>
+</html>
