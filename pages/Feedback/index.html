@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback</title>
+  <link rel="stylesheet" href="../Feedback/assets/css/hf.css">
+  <link rel="stylesheet" href="../Feedback/assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="expanding-header">
+      <div class="logo-center" onclick="toggleHeaderBox()">
+        <img src="../Feedback/assets/img/KBlogo.png" alt="Logo" />
+      </div>
+      <div class="nav-expand-box" id="navBox">
+        <div class="nav-left">
+          <a href="../../index.html">Home</a>
+          <a href="../About/index.html">About</a>
+          <a href="../Works/index.html">Works</a>
+        </div>
+        <div class="nav-right">
+          <button onclick="window.location.href='../Contact/index.html'">Contact</button>
+          <button onclick="window.location.href='../Feedback/index.html'">Feedback</button>
+        </div>
+      </div>
+    </header>
+
+  <div class="feedback-wrapper">
+    <!-- Header -->
+    <section class="feedback-header">
+      <h1><i class="fas fa-comment-dots"></i> YOUR FEEDBACK</h1>
+      <p>Help me improve by sharing your thoughts and suggestions</p>
+    </section>
+
+    <!-- Feedback Sections -->
+    <div class="feedback-body">
+      <!-- Feedback Form -->
+      <div class="feedback-form">
+        <h2><i class="fas fa-pen-alt"></i> SHARE YOUR FEEDBACK</h2>
+        <form id="feedbackForm">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Email (Optional)">
+
+          <label>Overall Rating</label>
+          <div class="star-rating">
+            <i class="fas fa-star" data-value="1"></i>
+            <i class="fas fa-star" data-value="2"></i>
+            <i class="fas fa-star" data-value="3"></i>
+            <i class="fas fa-star" data-value="4"></i>
+            <i class="fas fa-star" data-value="5"></i>
+          </div>
+          <input type="hidden" name="rating" id="ratingValue">
+
+          <label class="sub-header">Your Feedback</label>
+          <textarea name="message" placeholder="Please share your thoughts..." required></textarea>
+          <button type="submit"><i class="fas fa-paper-plane"></i> SUBMIT FEEDBACK</button>
+        </form>
+      </div>
+
+      <!-- Info Section -->
+      <div class="feedback-info">
+        <h2><i class="fas fa-info-circle"></i> ABOUT FEEDBACK</h2>
+        <div class="info-box"><i class="fas fa-star"></i><div><strong>RATE MY WORK</strong><br>Let me know how you found the website and portfolio</div></div>
+        <div class="info-box"><i class="fas fa-lightbulb"></i><div><strong>SHARE IDEAS</strong><br>Suggest improvements or new features</div></div>
+        <div class="info-box"><i class="fas fa-clock"></i><div><strong>QUICK RESPONSE</strong><br>I’ll respond to your feedback within 24 hours</div></div>
+      </div>
+    </div>
+  </div>
+
+
+    <footer>
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-left">
+          <a href="../../index.html">
+            <img src="../Feedback/assets/img/KBlogo.png" alt="KB Logo" class="footer-logo-sm" />
+          </a>
+          <span class="footer-name">Ken Bautista</span>
+        </div>
+        <div class="footer-bottom-center">
+          <a href="../About/index.html">About</a>
+          <a href="../Works/index.html">Works</a>
+          <a href="../Contact/index.html">Contact</a>
+        </div>
+        <div class="footer-bottom-right">
+          <a href="../Feedback/index.html">Feedback</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copyright">
+        <span class="copyrights">© 2025 Ken Bautista. All rights reserved.</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="../Feedback/assets/img/bgvideoz.mp4" type="video/mp4" />
+    </video>
+    <div class="logo-overlay">
+      <img src="../Feedback/assets/img/KBlogo.png" alt="Ken Bautista Logo" class="blurred-logo" />
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="../Feedback/assets/js/scripts.js"></script>
+</body>
+</html>
