@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link rel="stylesheet" href="./assets/css/hf.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="expanding-header">
+      <div class="logo-center" onclick="toggleHeaderBox()">
+        <img src="./assets/img/KBlogo.png" alt="Logo" />
+      </div>
+      <div class="nav-expand-box" id="navBox">
+        <div class="nav-left">
+          <a href="./index.html">Home</a>
+          <a href="./pages/About/index.html">About</a>
+          <a href="./pages/Works/index.html">Works</a>
+        </div>
+        <div class="nav-right">
+          <button onclick="window.location.href='./pages/Contact/index.html'">Contact</button>
+          <button onclick="window.location.href='./pages/Feedback/index.html'" >Feedback</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-section">
+      <div class="hero-left">
+        <div class="status-box">
+          <span class="glow-dot"></span>
+          <span class="status-text">Still learning</span>
+        </div>
+        <h1 class="student-phrase">
+          1st Year College<br /> Student at<br />
+          FEU Institute of<br />Technology
+        </h1>
+      </div>
+
+      <div class="hero-center">
+        <img src="./assets/img/kenpfp.png" alt="Ken Bautista" class="hero-image" />
+      </div>
+
+      <div class="hero-name">
+      <span class="firstn"> Ken </span> <span class="surn"> Bautista </span>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-right-content">
+          <p class="intro-text">
+            Hi, my name is Ken Bautista. I<br>
+            am a first-year undergraduate<br>
+            student at the FEU Institute of<br>
+            Technology, currently studying<br>
+            a Bachelor of Science in<br>
+            Information Technology with a<br>
+            specialization in Cybersecurity.
+          </p>
+          <a href="./pages/About/index.html" class="works-button">About me</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-left">
+          <a href="./index.html">
+            <img src="./assets/img/KBlogo.png" alt="KB Logo" class="footer-logo-sm" />
+          </a>
+          <span>Ken Bautista</span>
+        </div>
+        <div class="footer-bottom-center">
+          <a href="./pages/About/index.html">About</a>
+          <a href="./pages/Works/index.html">Works</a>
+          <a href="./pages/Contact/index.html">Contact</a>
+        </div>
+        <div class="footer-bottom-right">
+          <a href="./pages/Feedback/index.html">Feedback</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copyright">
+        <span>© 2025 Ken Bautista. All rights reserved.</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="./assets/img/bgvideoz.mp4" type="video/mp4" />
+    </video>
+    <div class="logo-overlay">
+      <img src="./assets/img/KBlogo.png" alt="Ken Bautista Logo" class="blurred-logo" />
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
