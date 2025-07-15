@@ -59,9 +59,10 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This Final Project presents my personal information including my skills, education, hobbies, and contact informations.
+Tools that I have used creating this portfolio is HTML for structure, CSS for designing of the website, and JS for functionality for header, and works video background. While oustide coding, I used canva for the design layout of my portfolio and pinterest for hobbies logos. Landing/home page contains a short background about me and my image. then the about page contains my education, about me, and technical skills. when these are flipped you will see other information about me. Then works presents my recent works. Contact page presents my contact informations and socials for inquiries. Lastly, the feedback page.
 
-Guiding Question:
+
 - This is my personal Portfolio
 - This shows my personal information
 - Key components in this Portfolio is my personal information that I experience
